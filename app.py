@@ -7,7 +7,7 @@ Created on Wed Jul 21 16:22:08 2021
 
 from flask import *  
 
-app = Flask(__name__)  
+app = Flask(__name__, template_folder='./Templates/')  
   
 @app.route('/')  
 def message():  
